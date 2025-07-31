@@ -1,0 +1,17 @@
+N=1000;
+
+
+Constant       :O(1);      ->1
+linear        :O(N);      ->1000
+Logarithmic   :O(logN);   ->10
+Sqrt          :O(sqrt(N));->32
+Quadratic     :O(N*N);     ->1000000
+Linearithmatic:O(NlogN);   ->10000
+
+The less the operation The better the complexity;;
+Constant       :O(1);
+Logarithmic    :O(logN); 
+Sqrt           :O(sqrt(N));
+linear         :O(N);   
+Linearithmatic :O(NlogN); 
+Quadratic      :O(N*N);   
